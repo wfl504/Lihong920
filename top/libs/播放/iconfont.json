@@ -1,0 +1,37 @@
+{
+  "id": "4604031",
+  "name": "播放",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "448450",
+      "name": "播放",
+      "font_class": "bofang",
+      "unicode": "e6ad",
+      "unicode_decimal": 59053
+    },
+    {
+      "icon_id": "2674474",
+      "name": "播放",
+      "font_class": "bofang1",
+      "unicode": "e624",
+      "unicode_decimal": 58916
+    },
+    {
+      "icon_id": "5301918",
+      "name": "活动直播间",
+      "font_class": "bofang2",
+      "unicode": "e628",
+      "unicode_decimal": 58920
+    },
+    {
+      "icon_id": "8214639",
+      "name": "播放",
+      "font_class": "bofang3",
+      "unicode": "e643",
+      "unicode_decimal": 58947
+    }
+  ]
+}

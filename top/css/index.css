@@ -1,0 +1,341 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+#top-content {
+    width: 100%;
+    background-color: rgb(31, 30, 70);
+}
+
+.top-content-left {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+}
+
+.top-content-left .span1 {
+    color: aqua;
+    font-size: 20px;
+    text-shadow: 1px 0 10px cyan;
+    font-weight: 400;
+}
+
+.top-content-left .span2 {
+    color: aqua;
+    font-size: 20px;
+    text-shadow: 1px 0 10px cyan;
+    font-weight: 400;
+}
+
+.top-content-left .span3 {
+    color: aqua;
+    font-size: 20px;
+    text-shadow: 1px 0 10px cyan;
+    font-weight: 400;
+}
+
+.top-content-left span {
+    color: rgb(110, 214, 249);
+    margin-left: 5px;
+    font-size: 20px
+}
+
+.top-content-content {
+    flex: 1;
+}
+
+#content-content {
+    flex: 1;
+    height: 500px;
+    width: 100%;
+}
+
+.content-background {
+    width: 100%;
+    height: auto;
+    background-image: url(../img/back.png);
+    background-repeat: repeat-y;
+    background-image: var(100%);
+    display: flex;
+    justify-content: space-between;
+}
+
+.content-content-main {
+    width: 75%;
+    height: auto;
+    background-color: white;
+    margin: 0 auto;
+    justify-content: center;
+    border-radius: 20px 20px 0 0;
+    opacity: 70%;
+}
+
+.content-content-left {
+    float: left;
+}
+
+.content-content-left span {
+    color: rgb(0, 140, 255);
+    float: left;
+}
+
+.content-content-left span br {
+    padding-top: 10px;
+}
+
+.content-content-right span br {
+    padding-top: 10px;
+}
+
+.content-content-right span {
+    color: rgb(0, 140, 255);
+    float: right;
+}
+
+.content-content-right {
+    float: right;
+}
+
+.span-top-left {
+    color: aqua;
+    font-size: 18px;
+    text-shadow: 1px 0 10px cyan;
+    font-weight: 400;
+    float: right;
+    padding-left: 20px;
+}
+
+.span-top-left br span {
+    margin-top: 10px;
+}
+
+.span-top-right br span {
+    margin-top: 10px;
+}
+
+.span-top-right {
+    color: aqua;
+    font-size: 18px;
+    text-shadow: 1px 0 10px cyan;
+    font-weight: 400;
+    float: left;
+    padding-right: 20px;
+}
+
+.content-main-border {
+    border-top: 1px solid gray;
+    margin-top: 15px;
+}
+
+.content-main-border span {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+
+.content-main-border span dl {
+    border: 2px solid cyan;
+    width: 23%;
+    border-radius: 10px;
+    text-shadow: 1px 0 10px cyan;
+    box-shadow: 1px 0 5px cyan;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.content-main-border span dl dt video {
+    width: 100%;
+    height: 320px;
+    margin-bottom: 20px;
+}
+
+.content-main-border span dl dd {
+    margin-bottom: 10px;
+}
+
+.content-main-border span dl div img {
+    width: 80px;
+    position: absolute;
+    left: 35%;
+    top: 40%;
+    height: auto;
+}
+
+@media screen and (max-width:2560px) {
+    
+    /* 4K */
+    .content-main-border span dl {
+        border: 2px solid cyan;
+        width: 15%;
+        border-radius: 10px;
+        text-shadow: 1px 0 10px cyan;
+        box-shadow: 1px 0 5px cyan;
+        margin-top: 10px;
+        margin-bottom: 20px;
+        position: relative;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .content-main-border span dl div img {
+        width: 80px;
+        position: absolute;
+        left: 32%;
+        top: 40%;
+        height: auto;
+    }
+}
+
+@media screen and (max-width:1440px) {
+    /* 笔记端 L */
+    .content-main-border span dl {
+        border: 2px solid cyan;
+        width: 22%;
+        border-radius: 10px;
+        text-shadow: 1px 0 10px cyan;
+        box-shadow: 1px 0 5px cyan;
+        margin-top: 10px;
+        margin-bottom: 20px;
+        position: relative;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .content-main-border span dl div img {
+        width: 80px;
+        position: absolute;
+        left: 32%;
+        top: 40%;
+        height: auto;
+    }
+}
+
+@media screen and (max-width:1024px) {
+
+    /* 笔记端 */
+    .content-main-border span dl {
+        border: 2px solid cyan;
+        width: 29%;
+        border-radius: 10px;
+        text-shadow: 1px 0 10px cyan;
+        box-shadow: 1px 0 5px cyan;
+        margin-top: 10px;
+        margin-bottom: 20px;
+        position: relative;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .content-main-border span dl div img {
+        width: 80px;
+        position: absolute;
+        left: 31%;
+        top: 40%;
+        height: auto;
+    }
+}
+
+@media screen and (max-width:768px) {
+
+    /* 平板端 */
+    .content-main-border span dl {
+        border: 2px solid cyan;
+        width: 44%;
+        border-radius: 10px;
+        text-shadow: 1px 0 10px cyan;
+        box-shadow: 1px 0 5px cyan;
+        margin-top: 10px;
+        margin-bottom: 20px;
+        position: relative;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .content-main-border span dl div img {
+        width: 80px;
+        position: absolute;
+        left: 32%;
+        top: 40%;
+        height: auto;
+    }
+}
+
+@media screen and (max-width:425px) {
+    /* 移动端 L */
+    .content-main-border span dl {
+        border: 2px solid cyan;
+        width: 97%;
+        border-radius: 10px;
+        text-shadow: 1px 0 10px cyan;
+        box-shadow: 1px 0 5px cyan;
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+
+    .content-main-border span dl div img {
+        width: 80px;
+        position: absolute;
+        left: 30%;
+        top: 40%;
+        height: auto;
+    }
+}
+@media screen and (max-width:375px) {
+    /* 移动端 M */
+    .content-main-border span dl {
+        border: 2px solid cyan;
+        width: 97%;
+        border-radius: 10px;
+        text-shadow: 1px 0 10px cyan;
+        box-shadow: 1px 0 5px cyan;
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+
+    .content-main-border span dl div img {
+        width: 80px;
+        position: absolute;
+        left: 28%;
+        top: 40%;
+        height: auto;
+    }
+}
+@media screen and (max-width:320px) {
+    /* 移动端 S */
+    .content-main-border span dl {
+        border: 2px solid cyan;
+        width: 97%;
+        border-radius: 10px;
+        text-shadow: 1px 0 10px cyan;
+        box-shadow: 1px 0 5px cyan;
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+
+    .content-main-border span dl div img {
+        width: 80px;
+        position: absolute;
+        left: 21%;
+        top: 40%;
+        height: auto;
+    }
+}
