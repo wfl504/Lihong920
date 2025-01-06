@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>用户注册</title>
+    <link rel="stylesheet" href="./css/login.css">
+    <script src="./libs/jquery-3.7.1.min.js"></script>
+    <style>
+
+    </style>
+</head>
+
+<body>
+    <div class="body-max">
+        <div>
+            <h2 class="h2-title">用户注册</h2>
+            <div class="div-form">
+                <form id="registerForm" onsubmit="return false">
+                    <span class="span-con">
+                        <span class="span-box">账&nbsp;&nbsp;&nbsp;&nbsp;号</span>
+                        <input id="tetxNo" name="username" type="text">
+                    </span>
+                    <br>
+                    <span class="span-con">
+                        <span class="span-box">姓&nbsp;&nbsp;&nbsp;&nbsp;名</span>
+                        <input id="textname" name="username" type="text">
+                    </span>
+                    <br>
+                    <span class="span-con">
+                        <span class="span-box">密&nbsp;&nbsp;&nbsp;&nbsp;码</span>
+                        <input id="txtpwd" name="password" type="password">
+                    </span>
+                    <br>
+                    <span class="span-con">
+                        <span class="span-box">确认密码</span>
+                        <input id="textpwds" name="password" type="password">
+                    </span>
+                    <br>
+                    <div class="div-a">
+                        <a href="Login.html">已有账号？登录</a> |
+                        <a href="#" onclick="forget()">忘记密码？</a>
+                    </div>
+                    <input id="input-register" type="submit" value="注册" onclick="jieco()">
+                </form>
+            </div>
+            <span id="tip" style="color: red; font-size: 12px;"></span>
+        </div>
+    </div>
+</body>
+<script src="./libs/login.js"></script>
+
+</html>
