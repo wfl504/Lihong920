@@ -86,7 +86,7 @@ function jieco() {
     users.push(newUser);
     console.log(users);
     alert('注册成功');
-    window.location.href = '../Login.html';
+    window.location.href = 'https://wfl504.github.io/Lihong920/top/Login.html';
     return true;
   }
 
